@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./Poppins-Medium.ttf);
+}
+a {
+  text-decoration: none;
+  font-family: poppins;
+}
+/* start section-aboutme */
+#about-me {
+  padding-top: 42px;
+}
+#aboutme-container {
+  justify-content: space-between;
+  width: 962px;
+  margin: 0 auto;
+}
+#aboutme-left img[src="./picture/about-img.png.webp"] {
+  height: 319px;
+  width: 453px;
+  margin-top: 10px;
+  margin-left: 13.5px;
+}
+#aboutme-right {
+  padding-left: 109px;
+  * {
+    font-family: poppins;
+  }
+  h6 {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -1px;
+  }
+  h1 {
+    color: #222222;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: -12px;
+  }
+  p {
+    color: #777777b6;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 40px 0 48px;
+    padding-right: 12px;
+  }
+  a {
+    padding: 10px 30px;
+    background-image: linear-gradient(to right, #8490ff, #62bdfc);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+/* end section-aboutme */
