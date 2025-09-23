@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./Poppins-Medium.ttf);
+}
+a {
+  text-decoration: none;
+  font-family: poppins;
+}
+/* start header */
+#header-container {
+  justify-content: space-between;
+  height: 70px;
+  width: 900px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+#header-container img[src="./picture/logo.png.webp"] {
+  margin-left: -30px;
+  margin-top: 7px;
+}
+#navbar {
+  a {
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+.hover-color {
+  color: #222;
+}
+.hover-color:hover {
+  color: #8490ff;
+}
+/* end header */
